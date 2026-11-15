@@ -1,0 +1,9 @@
+{
+  "name": "goodui-free",
+  "private": true,
+  "license": "MIT",
+  "homepage": "https://goodui.dev",
+  "scripts": {
+    "registry:build": "npx shadcn@latest build"
+  }
+}

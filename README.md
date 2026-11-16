@@ -157,7 +157,24 @@ Also included: the scheduler engine (`components/slotgrid`), shared motion token
 
 ## Pro and kits
 
-This repository holds the free part of goodui. [goodui Pro](https://goodui.dev/pricing) adds more blocks, complete design kits, and React Native screens and templates. None of that is in this repository.
+This repository holds the free part of goodui. [goodui Pro](https://goodui.dev/pricing) adds **37 Pro components**, 111 more blocks, complete design kits, and **76 React Native components**, screens and templates. None of that is in this repository: Pro installs with the same shadcn CLI and a license key.
+
+<table>
+<tr>
+<td width="50%" valign="top"><a href="https://goodui.dev/components/pro/holo-card"><img src=".github/assets/pro/holo-card.gif" alt="Holo card: Foil that follows the pointer and the light." width="100%"></a><br><a href="https://goodui.dev/components/pro/holo-card"><b>Holo card</b></a><br><sub>Foil that follows the pointer and the light.</sub></td>
+<td width="50%" valign="top"><a href="https://goodui.dev/components/pro/device-showcase-3d"><img src=".github/assets/pro/device-showcase-3d.gif" alt="3D device showcase: Your UI on a laptop and phone in real 3D." width="100%"></a><br><a href="https://goodui.dev/components/pro/device-showcase-3d"><b>3D device showcase</b></a><br><sub>Your UI on a laptop and phone in real 3D.</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://goodui.dev/components/pro/particle-morph-text"><img src=".github/assets/pro/particle-morph-text.gif" alt="Particle morph text: Words dissolve into particles and reform." width="100%"></a><br><a href="https://goodui.dev/components/pro/particle-morph-text"><b>Particle morph text</b></a><br><sub>Words dissolve into particles and reform.</sub></td>
+<td width="50%" valign="top"><a href="https://goodui.dev/components/pro/card-deck-swipe"><img src=".github/assets/pro/card-deck-swipe.gif" alt="Card deck swipe: A physics card stack you fling away." width="100%"></a><br><a href="https://goodui.dev/components/pro/card-deck-swipe"><b>Card deck swipe</b></a><br><sub>A physics card stack you fling away.</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://goodui.dev/components/pro/page-flip-book"><img src=".github/assets/pro/page-flip-book.gif" alt="Page flip book: Real page curl, drag or click to turn." width="100%"></a><br><a href="https://goodui.dev/components/pro/page-flip-book"><b>Page flip book</b></a><br><sub>Real page curl, drag or click to turn.</sub></td>
+<td width="50%" valign="top"><a href="https://goodui.dev/components/pro/lens-glass"><img src=".github/assets/pro/lens-glass.gif" alt="Lens glass: A refracting glass lens over any content." width="100%"></a><br><a href="https://goodui.dev/components/pro/lens-glass"><b>Lens glass</b></a><br><sub>A refracting glass lens over any content.</sub></td>
+</tr>
+</table>
+
+<p align="center"><a href="https://goodui.dev/components/pro"><b>See all 37 Pro components</b></a> &nbsp;·&nbsp; <a href="https://goodui.dev/pricing"><b>Pricing</b></a> (one payment, lifetime updates, 14-day refund)</p>
 
 Everything here stays free and MIT licensed.
 

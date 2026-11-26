@@ -6,7 +6,8 @@
   <a href="https://goodui.dev"><b>Live previews</b></a> &nbsp;·&nbsp;
   <a href="#install"><b>Install</b></a> &nbsp;·&nbsp;
   <a href="#whats-here"><b>What's here</b></a> &nbsp;·&nbsp;
-  <a href="https://goodui.dev/pricing"><b>Pro and kits</b></a>
+  <a href="#templates"><b>Templates</b></a> &nbsp;·&nbsp;
+  <a href="https://goodui.dev/pricing"><b>Pro</b></a>
 </p>
 
 <p align="center">
@@ -18,6 +19,8 @@
 <a href="https://goodui.dev/blocks/scheduling#resource-timeline"><img src=".github/assets/resource-timeline.gif" alt="Resource timeline block: a booking dragged along a staff schedule" width="100%"></a>
 
 <p align="center"><sub>Resource timeline: drag, resize, conflicts, click to book. <a href="https://goodui.dev/blocks/scheduling#resource-timeline">Try it live</a>.</sub></p>
+
+<p align="center">If goodui saves you time, a star helps other developers find it.</p>
 
 ## Showcase
 
@@ -155,9 +158,49 @@ Each link opens a usage guide.
 
 Also included: the scheduler engine (`components/slotgrid`), shared motion tokens, optional UI sounds, and 19 language packs for component labels.
 
-## Pro and kits
+## Templates
 
-This repository holds the free part of goodui. [goodui Pro](https://goodui.dev/pricing) adds **37 Pro components**, 111 more blocks, complete design kits, and **76 React Native components**, screens and templates. None of that is in this repository: Pro installs with the same shadcn CLI and a license key.
+Finished pages you start from instead of a blank file: 65 landing pages and dashboards across 14 design kits, and 10 React Native app templates. Each kit has its own page model, navigation, type and motion. They ship as Next.js and Tailwind source with [goodui Pro](https://goodui.dev/pricing).
+
+<table>
+<tr>
+<td width="50%" valign="top"><a href="https://goodui.dev/kits/index/coding-agent"><img src=".github/assets/templates/index-coding-agent.jpg" alt="Fixup: Index kit. A git log that is the page: accept a hunk and the page changes." width="100%"></a><br><a href="https://goodui.dev/kits/index/coding-agent"><b>Fixup</b></a><br><sub>Index kit. A git log that is the page: accept a hunk and the page changes.</sub></td>
+<td width="50%" valign="top"><a href="https://goodui.dev/kits/atlas/visibility"><img src=".github/assets/templates/atlas-visibility.jpg" alt="Landfall: Atlas kit. A nautical chart where answer engines are islands." width="100%"></a><br><a href="https://goodui.dev/kits/atlas/visibility"><b>Landfall</b></a><br><sub>Atlas kit. A nautical chart where answer engines are islands.</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://goodui.dev/kits/strata/appsec"><img src=".github/assets/templates/strata-appsec.jpg" alt="Lightproof: Strata kit. One request falls through five layers of film." width="100%"></a><br><a href="https://goodui.dev/kits/strata/appsec"><b>Lightproof</b></a><br><sub>Strata kit. One request falls through five layers of film.</sub></td>
+<td width="50%" valign="top"><a href="https://goodui.dev/kits/marginalia/contract"><img src=".github/assets/templates/marginalia-contract.jpg" alt="Whereas: Marginalia kit. A contract with an AI collaborator in the margin." width="100%"></a><br><a href="https://goodui.dev/kits/marginalia/contract"><b>Whereas</b></a><br><sub>Marginalia kit. A contract with an AI collaborator in the margin.</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://goodui.dev/kits/one-window/approvals"><img src=".github/assets/templates/one-window-approvals.jpg" alt="Countersign: One Window kit. One product window stays pinned while you scroll." width="100%"></a><br><a href="https://goodui.dev/kits/one-window/approvals"><b>Countersign</b></a><br><sub>One Window kit. One product window stays pinned while you scroll.</sub></td>
+<td width="50%" valign="top"><a href="https://goodui.dev/kits/lumen/finance"><img src=".github/assets/templates/lumen-finance.jpg" alt="Noonmark: Lumen kit. A sundial whose shadow falls on the year you stop working." width="100%"></a><br><a href="https://goodui.dev/kits/lumen/finance"><b>Noonmark</b></a><br><sub>Lumen kit. A sundial whose shadow falls on the year you stop working.</sub></td>
+</tr>
+</table>
+
+<p align="center"><a href="https://goodui.dev/kits"><b>See all 65 pages, with recordings</b></a></p>
+
+## Pro
+
+This repository holds the free part of goodui. [goodui Pro](https://goodui.dev/pricing) adds **150 Pro components**, 111 more blocks, the templates above and the React Native screens and apps. None of that is in this repository: Pro installs with the same shadcn CLI and a license key.
+
+**Added this week**
+
+<table>
+<tr>
+<td width="50%" valign="top"><a href="https://goodui.dev/components/pro/lanyard-badge"><img src=".github/assets/pro/lanyard-badge.gif" alt="Lanyard badge: An ID badge on a strap with rope physics. Drag it, throw it, turn it over." width="100%"></a><br><a href="https://goodui.dev/components/pro/lanyard-badge"><b>Lanyard badge</b></a><br><sub>An ID badge on a strap with rope physics. Drag it, throw it, turn it over.</sub></td>
+<td width="50%" valign="top"><a href="https://goodui.dev/components/pro/scroll-stack"><img src=".github/assets/pro/scroll-stack.gif" alt="Scroll stack: Cards that pin and pile up as you scroll." width="100%"></a><br><a href="https://goodui.dev/components/pro/scroll-stack"><b>Scroll stack</b></a><br><sub>Cards that pin and pile up as you scroll.</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://goodui.dev/components/pro/glitch-text"><img src=".github/assets/pro/glitch-text.gif" alt="Glitch text: Text that tears like a bad signal, in pure CSS." width="100%"></a><br><a href="https://goodui.dev/components/pro/glitch-text"><b>Glitch text</b></a><br><sub>Text that tears like a bad signal, in pure CSS.</sub></td>
+<td width="50%" valign="top"><a href="https://goodui.dev/components/pro/image-trail"><img src=".github/assets/pro/image-trail.gif" alt="Image trail: Pictures pop in behind the pointer, drift on and fade." width="100%"></a><br><a href="https://goodui.dev/components/pro/image-trail"><b>Image trail</b></a><br><sub>Pictures pop in behind the pointer, drift on and fade.</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://goodui.dev/components/pro/flip-card"><img src=".github/assets/pro/flip-card.gif" alt="Flip card: A two-sided card that turns on a spring." width="100%"></a><br><a href="https://goodui.dev/components/pro/flip-card"><b>Flip card</b></a><br><sub>A two-sided card that turns on a spring.</sub></td>
+<td width="50%" valign="top"><a href="https://goodui.dev/components/pro/curved-marquee"><img src=".github/assets/pro/curved-marquee.gif" alt="Curved marquee: Text running along a curve that you can drag and throw." width="100%"></a><br><a href="https://goodui.dev/components/pro/curved-marquee"><b>Curved marquee</b></a><br><sub>Text running along a curve that you can drag and throw.</sub></td>
+</tr>
+</table>
+
+**More from Pro**
 
 <table>
 <tr>
@@ -174,7 +217,7 @@ This repository holds the free part of goodui. [goodui Pro](https://goodui.dev/p
 </tr>
 </table>
 
-<p align="center"><a href="https://goodui.dev/components/pro"><b>See all 37 Pro components</b></a> &nbsp;·&nbsp; <a href="https://goodui.dev/pricing"><b>Pricing</b></a> (one payment, lifetime updates, 14-day refund)</p>
+<p align="center"><a href="https://goodui.dev/components/pro"><b>See all 150 Pro components</b></a> &nbsp;·&nbsp; <a href="https://goodui.dev/pricing"><b>Pricing</b></a> (one payment, lifetime updates, 14-day refund)</p>
 
 Everything here stays free and MIT licensed.
 

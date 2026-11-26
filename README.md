@@ -62,7 +62,7 @@ import { BellIcon, CheckIcon } from "@/components/goodui/goodui-icons"
 
 `draw` and `animate` play when the button is hovered or focused. Both also take `"hover"` and `"mount"`, and `animate` takes `"loop"`.
 
-This is the Core pack. Six more packs with 300 icons (developer and AI, money and shops, messages and media, maps and weather, editors, health and bookings) come with [goodui Pro](https://goodui.dev/pricing). [Search all 423](https://goodui.dev/icons).
+This is the Core pack. Nine more packs with 444 icons (developer and AI, money and shops, messages and media, maps and weather, editors, health and bookings, office and learning, food and home, games and sport) come with [goodui Pro](https://goodui.dev/pricing). [Search all 567](https://goodui.dev/icons).
 
 ## Install
 

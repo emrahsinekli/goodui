@@ -6,6 +6,7 @@
   <a href="https://goodui.dev"><b>Live previews</b></a> &nbsp;·&nbsp;
   <a href="#install"><b>Install</b></a> &nbsp;·&nbsp;
   <a href="#whats-here"><b>What's here</b></a> &nbsp;·&nbsp;
+  <a href="#icons"><b>Icons</b></a> &nbsp;·&nbsp;
   <a href="#templates"><b>Templates</b></a> &nbsp;·&nbsp;
   <a href="https://goodui.dev/pricing"><b>Pro</b></a>
 </p>
@@ -40,6 +41,24 @@ Recorded from the live previews at [goodui.dev](https://goodui.dev). Everything 
 <td width="50%" valign="top"><b>132 components, 39 blocks</b><br><sub>See the <a href="https://goodui.dev/components">full gallery</a>.</sub></td>
 </tr>
 </table>
+
+## Icons
+
+123 line icons on a 24 px grid, MIT licensed, in one file with no dependency. Every icon can draw itself stroke by stroke with CSS only, and the names match lucide-react.
+
+<a href="https://goodui.dev/icons"><img src=".github/assets/icons.png" alt="The 123 goodui icons" width="100%"></a>
+
+```bash
+npx shadcn@latest add https://goodui.dev/r/icons.json
+```
+
+```tsx
+import { CheckIcon } from "@/components/goodui/goodui-icons"
+
+<button><CheckIcon draw /> Save</button>
+```
+
+`draw` plays when the button is hovered or focused, `draw="hover"` when the icon is, and `draw="mount"` once when it appears. [Search and copy them all](https://goodui.dev/icons).
 
 ## Install
 
@@ -160,7 +179,7 @@ Also included: the scheduler engine (`components/slotgrid`), shared motion token
 
 ## Templates
 
-Finished pages you start from instead of a blank file: 65 landing pages and dashboards across 14 design kits, and 10 React Native app templates. Each kit has its own page model, navigation, type and motion. They ship as Next.js and Tailwind source with [goodui Pro](https://goodui.dev/pricing).
+Finished pages you start from instead of a blank file: four complete Next.js sites with a [live preview](https://goodui.dev/templates), 65 landing pages and dashboards across 14 design kits, and 10 React Native app templates. Each kit has its own page model, navigation, type and motion. They ship as Next.js and Tailwind source with [goodui Pro](https://goodui.dev/pricing).
 
 <table>
 <tr>
@@ -224,7 +243,7 @@ Everything here stays free and MIT licensed.
 ## Repository layout
 
 ```
-registry/components/   component source
+registry/components/   component source (icons in registry/components/icons)
 registry/blocks/       block source
 components/slotgrid/   scheduler engine
 lib/                   motion, sounds and locale helpers

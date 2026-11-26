@@ -44,21 +44,25 @@ Recorded from the live previews at [goodui.dev](https://goodui.dev). Everything 
 
 ## Icons
 
-123 line icons on a 24 px grid, MIT licensed, in one file with no dependency. Every icon can draw itself stroke by stroke with CSS only, and the names match lucide-react.
+123 line icons on a 24 px grid, MIT licensed, in one file with no dependency. Every icon can draw itself stroke by stroke and has its own small motion (a bell rings, an arrow steps, a heart beats), in CSS only. The names match lucide-react. There is a React Native file too.
 
-<a href="https://goodui.dev/icons"><img src=".github/assets/icons.png" alt="The 123 goodui icons" width="100%"></a>
+<a href="https://goodui.dev/icons"><img src=".github/assets/icons.png" alt="The 123 free goodui icons" width="100%"></a>
 
 ```bash
-npx shadcn@latest add https://goodui.dev/r/icons.json
+npx shadcn@latest add https://goodui.dev/r/icons.json          # React
+npx shadcn@latest add https://goodui.dev/native/r/icons.json   # React Native
 ```
 
 ```tsx
-import { CheckIcon } from "@/components/goodui/goodui-icons"
+import { BellIcon, CheckIcon } from "@/components/goodui/goodui-icons"
 
 <button><CheckIcon draw /> Save</button>
+<button><BellIcon animate /> Alerts</button>
 ```
 
-`draw` plays when the button is hovered or focused, `draw="hover"` when the icon is, and `draw="mount"` once when it appears. [Search and copy them all](https://goodui.dev/icons).
+`draw` and `animate` play when the button is hovered or focused. Both also take `"hover"` and `"mount"`, and `animate` takes `"loop"`.
+
+This is the Core pack. Six more packs with 300 icons (developer and AI, money and shops, messages and media, maps and weather, editors, health and bookings) come with [goodui Pro](https://goodui.dev/pricing). [Search all 423](https://goodui.dev/icons).
 
 ## Install
 
